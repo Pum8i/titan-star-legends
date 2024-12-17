@@ -3,6 +3,7 @@ import TalentPath from "../components/talent-path";
 import Title from "../components/title";
 import { useGameContext } from "../contexts/GameContext";
 
+import "./playing-board.module.css";
 import styles from "./playing-board.module.css";
 
 export default function PlayingBoard() {
