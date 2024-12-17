@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# TitanStar Legends
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple app to let TitanStar Legends players spend talent points they've collected on runes within a tree.
 
-Currently, two official plugins are available:
+# Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- TypeScript
+- CSS
+- [react-hot-toast](https://react-hot-toast.com/) (for notifications)
+- [modern-normalize](https://github.com/sindresorhus/modern-normalize) (to reset/normalize the CSS)
 
-## Expanding the ESLint configuration
+## Notes
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Storing State: Used React's in-built Context. For such a small app, it seemed like overkill to use anything like Redux.
+- Rune Data:
+  - Update totalPoints to change the number of pints available to the player.
+  - The app has been in a way that to add new Talent Paths or Runes, you can simply update runeData.ts, and it will show up in the app.
+    - With small additions, the responsive design should adapt, but would need revisiting if large additions were made.
+  - Notifications were added to give the player some feedback when playing.
