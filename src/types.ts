@@ -7,7 +7,6 @@ export interface ITalentPath {
 export interface IRune {
   runeId: string;
   name: string;
-  runeOrder: number;
   rune: string;
   darkRune: string;
   pointAdded: boolean;
