@@ -1,6 +1,6 @@
 import { useGameContext } from "../contexts/GameContext";
 import { IRune } from "../types";
-import classes from "./rune.module.css";
+import styles from "./rune.module.css";
 import clsx from "clsx";
 
 export default function Rune({
@@ -26,8 +26,8 @@ export default function Rune({
 
   return (
     <img
-      className={clsx(classes.rune, {
-        [classes.selectedRune]: pointAdded,
+      className={clsx(styles.rune, {
+        [styles.selectedRune]: pointAdded,
       })}
       src={pointAdded ? rune : darkRune}
       alt={name}

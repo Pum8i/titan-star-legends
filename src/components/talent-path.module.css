@@ -31,6 +31,7 @@
 @media screen and (max-width: 989px) {
   .path {
     height: 100%;
+    min-height: 10px;
     width: 10px;
   }
   .talentBox {
