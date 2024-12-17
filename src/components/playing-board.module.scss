@@ -32,7 +32,7 @@
   gap: 3rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: $mobile-breakpoint) {
   .playingBoard {
     height: 100vh;
     max-height: 989px;

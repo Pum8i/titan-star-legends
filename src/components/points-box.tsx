@@ -1,5 +1,5 @@
 import { useGameContext } from "../contexts/GameContext";
-import styles from "./points-box.module.css";
+import styles from "./points-box.module.scss";
 
 export default function PointsBox() {
   const { gameState } = useGameContext();

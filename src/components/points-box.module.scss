@@ -20,7 +20,7 @@
   color: #3c4e64;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: $mobile-breakpoint) {
   .outerBox {
     width: 100%;
   }

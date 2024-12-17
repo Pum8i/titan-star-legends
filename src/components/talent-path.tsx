@@ -1,7 +1,7 @@
 import React from "react";
 import Rune from "./rune";
 import { IRune, ITalentPath } from "../types";
-import styles from "./talent-path.module.css";
+import styles from "./talent-path.module.scss";
 import clsx from "clsx";
 
 const Path = ({ highlightPath }: { highlightPath: boolean }) => {
@@ -24,7 +24,7 @@ export default function TalentPath({
   const { runes } = path;
   return (
     <div className={styles.talentBox}>
-      <div className={styles.talentTitle}>{path.title}</div>
+      <h2 className={styles.talentTitle}>{path.title}</h2>
       <div className={styles.runesBox}>
         {runes.map((rune: IRune, i: number) => {
           return (

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import PlayingBoard from "./components/playing-board";
 import { GameProvider } from "./contexts/GameContext";
 import { Toaster } from "react-hot-toast";

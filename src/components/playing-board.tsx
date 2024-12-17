@@ -2,9 +2,7 @@ import PointsBox from "../components/points-box";
 import TalentPath from "../components/talent-path";
 import Title from "../components/title";
 import { useGameContext } from "../contexts/GameContext";
-
-import "./playing-board.module.css";
-import styles from "./playing-board.module.css";
+import styles from "./playing-board.module.scss";
 
 export default function PlayingBoard() {
   const { gameState } = useGameContext();

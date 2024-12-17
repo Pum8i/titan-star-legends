@@ -7,7 +7,7 @@ A simple app to let TitanStar Legends players spend talent points they've collec
 - React
 - Vite
 - TypeScript
-- CSS
+- CSS/SASS
 - [react-hot-toast](https://react-hot-toast.com/) (for notifications)
 - [modern-normalize](https://github.com/sindresorhus/modern-normalize) (to reset/normalize the CSS)
 
