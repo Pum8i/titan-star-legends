@@ -1,0 +1,15 @@
+.rune {
+  border: solid;
+  border-image: linear-gradient(to top, #4b4b4b 20%, #393939 50%, #4b4b4b 50%)
+    15;
+}
+.rune:hover {
+  cursor: pointer;
+}
+
+.selectedRune {
+  z-index: 5;
+  border-image: linear-gradient(to top, #79abe3 20%, #2c3c4e 50%, #79abe3 50%)
+    15;
+  box-shadow: 0 0 15px #586068;
+}
