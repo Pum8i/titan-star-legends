@@ -22,6 +22,14 @@ A simple app to let TitanStar Legends players spend talent points they've collec
 
 <div align="center">
 
-### Use [TitanStar Legends - Rune Mastery Loadout Talent Calculator 9000 ](https://titan-star-legends-phi.vercel.app/) now!!
+### Use the [TitanStar Legends - Rune Mastery Loadout Talent Calculator 9000 ](https://titan-star-legends-phi.vercel.app/) now!!
 
 </div>
+
+---
+
+### Recommendations enhancements for the future:
+
+- Add keyboard navigation/ensure accessibility.
+- Add cookies/local storage to allow remembering between sessions.
+- If new paths/runes are added, ensure the look and feel of the app remains remains consistent and user-friendly for new and existing users.
